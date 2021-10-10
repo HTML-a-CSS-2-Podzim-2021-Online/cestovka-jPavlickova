@@ -1,0 +1,28 @@
+html { box-sizing: border-box; }
+*, ::before, ::after { box-sizing: inherit; }
+
+body {
+    font-family: 'Montserrat', sans-serif;
+    max-width: 1000px;
+    margin: auto;
+    padding: 1rem;
+    font-size: 16px;
+    line-height: 1.5;
+}
+
+:root {
+    --hlavni-barva: #f03000;
+    --barva-pozadi: rgb(233, 233, 233);
+    --hlavni-odsazeni: 2rem 0;
+}
+
+a {
+    text-decoration: none;
+    margin: 0;
+    padding: 0;
+}
+
+.nadpis-sekce {
+    font-size: 1.5rem;
+    margin: 2rem 0 1rem 0;
+}

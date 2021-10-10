@@ -1,0 +1,47 @@
+.polozka-1 {
+    grid-area: main;
+}
+
+.polozka-2 {
+    grid-area: first;
+}
+
+.polozka-3 {
+    grid-area: second;
+}
+
+.polozka-4 {
+    grid-area: third;
+}
+
+.menu {
+    display: grid;
+    grid-template-columns: 250px 1fr 1fr 1fr 1fr;
+    grid-template-rows: auto;
+    grid-template-areas: "main . first second third";
+    padding-left: 0;
+    margin: var(--hlavni-odsazeni);
+}
+
+.menu li {
+    list-style: none;
+    color: var(--hlavni-barva);
+    text-align: center;
+    width: 100%;
+}
+
+.menu-odkaz {
+    color: var(--hlavni-barva);
+    font-size: 1rem;
+    font-weight: 600;
+    padding: 1rem;
+    width: 100%;
+    transition: background-color 0.5s linear;
+}
+
+.menu-odkaz:hover,
+.menu-odkaz:focus {
+    background-color: var(--hlavni-barva);
+    color: white;
+    border-radius: 3px;
+}

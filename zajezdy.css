@@ -1,0 +1,66 @@
+.seznam-zajezdu__vedlejsi,
+.seznam-zajezdu__hlavni {
+    background-repeat: no-repeat;
+    background-size: cover;
+    color: white;
+}
+
+.seznam-zajezdu__vedlejsi h3 {
+    font-size: 1.2rem;
+}
+
+.seznam-zajezdu__hlavni h3 {
+    font-size: 1.5rem;
+}
+
+.palmy {
+    background-image: url(podklady/palmy.jpg);
+    grid-row: 1/-1;
+}
+
+.jezero {
+    background-image: url(podklady/jezero.jpg);
+}
+
+.nakole {
+    background-image: url(podklady/nakole.jpg);
+}
+
+.podkova {
+    background-image: url(podklady/podkova.jpg);
+}
+
+.zatoka {
+    background-image: url(podklady/zatoka.jpg);
+}
+
+.lodicka {
+    background-image: url(podklady/lodicka.jpg);
+    grid-row: 1/-1;
+    grid-column: 2/-1;
+}
+
+.kontejner-foto {
+    display: grid;
+    grid-template-rows: 1fr 1fr;
+    gap: 1rem;
+    margin: var(--hlavni-odsazeni);
+}
+
+.kontejner-foto-vlevo {
+    grid-template-columns: 2fr 1fr;
+}
+
+.kontejner-foto-vpravo {
+    grid-template-columns: 1fr 2fr;
+    margin: 0;
+}
+
+.button {
+    padding: 0.5rem;
+    background-color: var(--hlavni-barva);
+    width: 5rem;
+    margin: 1rem;
+    font-weight: 800;
+    font-size: 0.8rem;
+}
