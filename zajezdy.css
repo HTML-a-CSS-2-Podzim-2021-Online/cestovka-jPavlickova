@@ -2,15 +2,24 @@
 .seznam-zajezdu__hlavni {
     background-repeat: no-repeat;
     background-size: cover;
+    object-fit: cover;
     color: white;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
 }
 
 .seznam-zajezdu__vedlejsi h3 {
     font-size: 1.2rem;
+    margin: 1rem;
 }
 
 .seznam-zajezdu__hlavni h3 {
     font-size: 1.5rem;
+}
+
+.seznam-zajezdu__hlavni p, h3 {
+    margin: 1rem;
 }
 
 .palmy {
@@ -64,3 +73,4 @@
     font-weight: 800;
     font-size: 0.8rem;
 }
+

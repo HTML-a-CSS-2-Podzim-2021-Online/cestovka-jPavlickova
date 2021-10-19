@@ -16,7 +16,7 @@
 
 .menu {
     display: grid;
-    grid-template-columns: 250px 1fr 1fr 1fr 1fr;
+    grid-template-columns: 250px 1fr 150px 150px 150px;
     grid-template-rows: auto;
     grid-template-areas: "main . first second third";
     padding-left: 0;
